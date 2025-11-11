@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateRangePicker - TypeScript with Tailwind CSS</title>
+</head>
+<body class="bg-gray-50 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">DateRangePicker</h1>
+        <p class="text-lg text-gray-600 mb-8">TypeScript version with Tailwind CSS and Vite</p>
+
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Basic Example</h2>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                    Select Date Range:
+                </label>
+                <input 
+                    type="text" 
+                    id="daterangepicker"
+                    class="w-64 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Select date range"
+                />
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Single Date Picker</h2>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                    Select Single Date:
+                </label>
+                <input 
+                    type="text" 
+                    id="singledatepicker"
+                    class="w-64 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Select a date"
+                />
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">With Predefined Ranges</h2>
+            <div class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                    Select Date Range:
+                </label>
+                <input 
+                    type="text" 
+                    id="rangedatepicker"
+                    class="w-64 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="Select date range"
+                />
+            </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Features</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>✅ Converted from jQuery to vanilla TypeScript</li>
+                <li>✅ Uses Tailwind CSS for styling (no Bootstrap required)</li>
+                <li>✅ Built with Vite for fast development and optimized production builds</li>
+                <li>✅ Full TypeScript type safety</li>
+                <li>✅ ES modules support</li>
+                <li>✅ Modern browser features</li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
